@@ -42,7 +42,9 @@
     "jwtSecretKey": "Yjc1OGVlMzMyYzllMGMwYWQ5ZmM4NDI5ZDU5MzdkZDhiNGY4ZDBjZTIxNGEyNjJlNjUxOTk5ZmEyZTMyOGQzN2ZhZTAwMDRlNjI4OTE4ZmMyNjUyMDRmNDg4YjYwZTgyM2QxNTAwN2JiMDYzZjQ2YTRkYzBkMzVhZWQ5MjMxNGE=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Region", "Country", "Location", "Department", "Task", "Employee", "Job", "JobHistory"],
+    "lastLiquibaseTimestamp": 1621568114000
   },
   "git-provider": "GitHub",
   "git-company": "realreachard",
