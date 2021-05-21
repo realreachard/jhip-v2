@@ -81,6 +81,18 @@ public class CacheConfiguration {
             createCache(cm, com.richard.jhip2.domain.User.class.getName(), jcacheConfiguration);
             createCache(cm, com.richard.jhip2.domain.Authority.class.getName(), jcacheConfiguration);
             createCache(cm, com.richard.jhip2.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Region.class.getName(), jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Country.class.getName(), jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Location.class.getName(), jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Department.class.getName(), jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Department.class.getName() + ".employees", jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Task.class.getName(), jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Task.class.getName() + ".jobs", jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Employee.class.getName(), jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Employee.class.getName() + ".jobs", jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Job.class.getName(), jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.Job.class.getName() + ".tasks", jcacheConfiguration);
+            createCache(cm, com.richard.jhip2.domain.JobHistory.class.getName(), jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }
